@@ -1,0 +1,112 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#connected{
+    width: 20%;
+}
+#input{
+    width: 60%;
+}
+#btn{
+    width: 20%;
+    background-color:lightpink;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#connected:hover{
+    cursor: pointer;
+}
+.main-container{
+    height: 100vh;
+    background-color:azure;
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    width: 500px;
+    max-width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sender{
+    align-self: flex-end;
+   
+}
+.send-msg{
+    background-color:lightpink;
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+  word-wrap: break-word;
+    
+
+}
+.user{
+text-align: center;
+color: rgb(121, 187, 245);
+font-size:small;
+margin-top: 5px;
+margin-bottom: 0;
+
+}
+.send-msg > span{
+    margin-left: 10px;
+   
+}
+.receive{
+    align-self: flex-start;
+}
+.receive-msg{
+    background-color:rgb(144, 154, 159);
+    padding: 7px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    word-wrap: break-word;
+
+}
+.receive-msg > span{
+    margin-left: 10px;
+    align-self: flex-start;
+}
+.heading{
+    background-color:lightpink;
+    height: 50px;
+    position: fixed;
+    text-align: center;
+    max-width: 100%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 100;
+}
+.chat-section{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+#form{
+    background: rgba(0, 0, 0, 0.15);
+     padding: 0.25rem;
+      display: flex;
+       height: 3rem;
+        box-sizing: border-box; 
+        backdrop-filter: blur(10px);
+        justify-content: space-between;
+        gap: 3px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    margin-top: 54px;
+}
